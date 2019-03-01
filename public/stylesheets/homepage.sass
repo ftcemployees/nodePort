@@ -3,6 +3,7 @@
 .banner
   background: url('/images/maxresdefault.jpg') no-repeat center
   background-size: auto
+  box-shadow: 1px 3px 6px 1px $primary-text-color
   height: 500px
   display: flex
   min-width: 536px
@@ -38,7 +39,6 @@
   text-align: center
   border: solid 1px whitesmoke
   border-radius: 15px
-  background-color: #7c424e
   box-shadow: 5px 5px 5px black
   span.glyphicon
     font-size: 1.5em
@@ -53,8 +53,8 @@ a
 
 #dropdownCards
   .tab-content
-    border: solid 2px $primary-color
-    background-color: white
+    border: solid 2px $divider-color
+    background-color: $divider-color
   margin-top: 1%
   .flex-parent
     a
@@ -81,22 +81,27 @@ a
   li
     margin-left: 0 !important
     a
-      border: solid 1px $primary-color
+      color: $primary-color-dark
+      border: solid 1px $primary-color-dark
       border-bottom: none
       border-bottom-left-radius: 0
       border-bottom-right-radius: 0
-      background-color: white
+      background-color: #cdcbcf
     a:hover
-      background-color: $primary-color-dark
+      background-color: $primary-color-dark-highlight
       color: $primary-color-text
       border-bottom-left-radius: 0
       border-bottom-right-radius: 0
   .active
     a
-      background-color: $primary-color !important
+      background-color: $primary-color-dark !important
 
 @media screen and (min-width: 1200px )
   .nav-pills
     li
       width: 350px
 
+
+#dailyLinksContainer
+  border: none
+  box-shadow: 1px 3px 6px 1px $primary-text-color

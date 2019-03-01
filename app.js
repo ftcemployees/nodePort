@@ -3,7 +3,6 @@ let path = require('path');
 let favicon = require('serve-favicon');
 let logger = require('morgan');
 let bodyParser = require('body-parser');
-let sassMiddleware = require('node-sass-middleware');
 let expressSanitizer = require('express-sanitizer');
 let index = require('./routes/index');
 let session = require('express-session');
@@ -28,12 +27,6 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(expressSanitizer());
-app.use(sassMiddleware({
-  src: path.join(__dirname, 'public'),
-  dest: path.join(__dirname, 'public'),
-  indentedSyntax: true, // true = .sass and false = .scss
-  sourceMap: true
-}));
 app.use(compression());
 app.use(minify({cache: path.join(__dirname, 'cache')}));
 app.use(express.static(path.join(__dirname, 'public')));

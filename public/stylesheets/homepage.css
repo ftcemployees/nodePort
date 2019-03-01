@@ -2,20 +2,24 @@
 .banner {
   background: url("/images/maxresdefault.jpg") no-repeat center;
   background-size: auto;
+  box-shadow: 1px 3px 6px 1px #212121;
   height: 500px;
   display: flex;
   min-width: 536px;
-  margin: 0; }
+  margin: 0;
+}
 
 #dropdowns {
   min-width: 536px;
-  margin: 2% 0; }
+  margin: 2% 0;
+}
 
 .flex-parent {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-flow: row wrap; }
+  flex-flow: row wrap;
+}
 
 .flex-child {
   font-size: 1.2em;
@@ -28,61 +32,80 @@
   text-align: center;
   border: solid 1px whitesmoke;
   border-radius: 15px;
-  background-color: #7c424e;
-  box-shadow: 5px 5px 5px black; }
-  .flex-child span.glyphicon {
-    font-size: 1.5em; }
-  .flex-child a {
-    outline: none;
-    margin: auto;
-    align-content: center; }
+  box-shadow: 5px 5px 5px black;
+}
+.flex-child span.glyphicon {
+  font-size: 1.5em;
+}
+.flex-child a {
+  outline: none;
+  margin: auto;
+  align-content: center;
+}
 
 a .glyphicon, a p {
-  color: #1A251E; }
+  color: #1A251E;
+}
 
 #dropdownCards {
-  margin-top: 1%; }
-  #dropdownCards .tab-content {
-    border: solid 2px #039ae3;
-    background-color: white; }
-  #dropdownCards .flex-parent a {
-    margin: 50px 15px;
-    text-decoration: none; }
+  margin-top: 1%;
+}
+#dropdownCards .tab-content {
+  border: solid 2px #BFBDC1;
+  background-color: #BFBDC1;
+}
+#dropdownCards .flex-parent a {
+  margin: 50px 15px;
+  text-decoration: none;
+}
 
 .card {
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-content: center; }
-  .card button {
-    height: 125px;
-    width: 125px;
-    margin: auto;
-    color: #FFFFFF; }
-  .card .glyphicon {
-    padding-bottom: 10px;
-    font-size: 3em;
-    color: #FFFFFF; }
+  align-content: center;
+}
+.card button {
+  height: 125px;
+  width: 125px;
+  margin: auto;
+  color: #FFFFFF;
+}
+.card .glyphicon {
+  padding-bottom: 10px;
+  font-size: 3em;
+  color: #FFFFFF;
+}
 
 .nav-pills li {
-  margin-left: 0 !important; }
-  .nav-pills li a {
-    border: solid 1px #039ae3;
-    border-bottom: none;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    background-color: white; }
-  .nav-pills li a:hover {
-    background-color: #0288D1;
-    color: #FFFFFF;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0; }
-
+  margin-left: 0 !important;
+}
+.nav-pills li a {
+  color: #032B43;
+  border: solid 1px #032B43;
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #cdcbcf;
+}
+.nav-pills li a:hover {
+  background-color: #033a58;
+  color: #FFFFFF;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
 .nav-pills .active a {
-  background-color: #039ae3 !important; }
+  background-color: #032B43 !important;
+}
 
 @media screen and (min-width: 1200px) {
   .nav-pills li {
-    width: 350px; } }
+    width: 350px;
+  }
+}
+#dailyLinksContainer {
+  border: none;
+  box-shadow: 1px 3px 6px 1px #212121;
+}
 
 /*# sourceMappingURL=homepage.css.map */
