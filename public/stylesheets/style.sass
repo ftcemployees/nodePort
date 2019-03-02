@@ -15,7 +15,7 @@
   height: 0
 
 ::-webkit-scrollbar-thumb
-  background: $primary-color
+  background: $primary-color-dark
   border: 0 none #ffffff
   //border-radius: 50px
 ::-webkit-scrollbar-thumb:hover
@@ -52,6 +52,7 @@ body
     margin-bottom: 0
 
 h1, h2, h3, h4
+  color: #f4f4f4
   font-family: 'Open Sans Light', sans-serif
   border-bottom: solid 1px #d3d3d3
   padding-bottom: 3%
@@ -74,8 +75,10 @@ p, a
   .nav.navbar-nav.pull-right
     float: left !important
 
-
 tr:nth-child(even)
+  color: #f4f4f4
+  background-color: $background-color !important
+tr:nth-child(odd)
   background-color: $divider-color
 h1
   text-align: center
@@ -88,20 +91,22 @@ h1
 .inline
   display: inline-block
 .panel-primary
-  border: solid 1px $primary-color
+  border: solid 1px $primary-color-dark
   .panel-heading
-    background-color: $primary-color
+    background-color: $primary-color-dark
     h1,h2, h3,h4,h5
       border: none
       padding: 0
 
 .panel-accent
   border: solid 1px $accent-color
+  background-color: $divider-color
   .panel-heading
     background-color: $accent-color
-    color: $primary-color-text
+    color: $background-color
     h1,h2, h3,h4,h5
       border: none
+      color: $background-color
       padding: 0
   .panel-body
     h1,h2, h3,h4,h5
@@ -111,6 +116,7 @@ h1
   border: none
 
 .jumbotron
+  box-shadow: 0 1px 1px 4px rgba(0,0,0,.05)
   background-color: $primary-color-dark
   color: $primary-color-text
   .container
@@ -172,7 +178,7 @@ h1
 //    padding: inherit
 
 .empCard
-  box-shadow: 3px 3px 8px #888888
+  box-shadow: 0 1px 1px 4px rgba(0,0,0,.05)
   img
     width: 30%
     display: inline
@@ -193,3 +199,9 @@ h1
 
 .no-border
   border: none
+
+.dark-text
+  color: $primary-text-color !important
+
+.dark-background
+  background-color: $divider-color

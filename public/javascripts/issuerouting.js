@@ -66,10 +66,10 @@ function showPanel(q) {
                     <div class="panel-heading text-center">
                         <h3>${list[q].title}</h3>
                      </div>
-                     <div class="panel-body">
-                        <h3><strong>Phone Ext:</strong> ${list[q].ext}</h3>
-                        <h3><strong>Ticket:</strong> <a href="${list[q].ticketURL}" target="_blank">${list[q].ticket}</a></h3>
-                        <h3><strong>Additional Info:</strong> ${list[q].message}</h3>
+                     <div class="panel-body dark-background">
+                        <h3 class="dark-text"><strong>Phone Ext:</strong> ${list[q].ext}</h3c>
+                        <h3 class="dark-text"><strong>Ticket:</strong> <a href="${list[q].ticketURL}" target="_blank">${list[q].ticket}</a></h3>
+                        <h3 class="dark-text"><strong>Additional Info:</strong> ${list[q].message}</h3>
                      </div>
                  </div>`);
 }

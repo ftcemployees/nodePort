@@ -2,7 +2,7 @@
 .banner {
   background: url("/images/maxresdefault.jpg") no-repeat center;
   background-size: auto;
-  box-shadow: 1px 3px 6px 1px #212121;
+  box-shadow: 0 1px 1px 4px rgba(0, 0, 0, 0.05);
   height: 500px;
   display: flex;
   min-width: 536px;
@@ -32,7 +32,7 @@
   text-align: center;
   border: solid 1px whitesmoke;
   border-radius: 15px;
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 0 1px 1px 4px rgba(0, 0, 0, 0.05);
 }
 .flex-child span.glyphicon {
   font-size: 1.5em;
@@ -69,12 +69,15 @@ a .glyphicon, a p {
   height: 125px;
   width: 125px;
   margin: auto;
-  color: #FFFFFF;
+  color: #efefef;
+}
+.card button:hover {
+  color: #efefef;
 }
 .card .glyphicon {
   padding-bottom: 10px;
   font-size: 3em;
-  color: #FFFFFF;
+  color: #efefef;
 }
 
 .nav-pills li {
@@ -105,7 +108,7 @@ a .glyphicon, a p {
 }
 #dailyLinksContainer {
   border: none;
-  box-shadow: 1px 3px 6px 1px #212121;
+  box-shadow: 0 1px 1px 4px rgba(0, 0, 0, 0.05);
 }
 
 /*# sourceMappingURL=homepage.css.map */

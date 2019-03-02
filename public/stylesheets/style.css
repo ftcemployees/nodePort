@@ -27,19 +27,19 @@ fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fi
 }
 
 .btn-accent {
-  color: #FFFFFF;
+  color: #403c48;
   background-color: #FDB833;
   border-color: #FDB833;
 }
 .btn-accent:hover, .btn-accent:focus, .btn-accent:active, .btn-accent.active {
   background-color: #ffcb34;
   border-color: #ffcb34;
-  color: #FFFFFF;
+  color: #403c48;
 }
 .btn-accent.disabled:hover, .btn-accent.disabled:focus, .btn-accent.disabled:active, .btn-accent.disabled.active {
   background-color: #ffcb34;
   border-color: #ffcb34;
-  color: #FFFFFF;
+  color: #403c48;
 }
 .btn-accent[disabled]:hover, .btn-accent[disabled]:focus, .btn-accent[disabled]:active, .btn-accent[disabled].active {
   background-color: #ffcb34;
@@ -131,7 +131,7 @@ fieldset[disabled] .btn-accent:hover, fieldset[disabled] .btn-accent:focus, fiel
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #296EB4;
+  background: #032B43;
   border: 0 none #ffffff;
 }
 
@@ -176,6 +176,7 @@ body .navbar-default {
 }
 
 h1, h2, h3, h4 {
+  color: #f4f4f4;
   font-family: "Open Sans Light", sans-serif;
   border-bottom: solid 1px #d3d3d3;
   padding-bottom: 3%;
@@ -210,6 +211,11 @@ p, a {
   }
 }
 tr:nth-child(even) {
+  color: #f4f4f4;
+  background-color: #403c48 !important;
+}
+
+tr:nth-child(odd) {
   background-color: #BFBDC1;
 }
 
@@ -229,10 +235,10 @@ h1 {
 }
 
 .panel-primary {
-  border: solid 1px #296EB4;
+  border: solid 1px #032B43;
 }
 .panel-primary .panel-heading {
-  background-color: #296EB4;
+  background-color: #032B43;
 }
 .panel-primary .panel-heading h1, .panel-primary .panel-heading h2, .panel-primary .panel-heading h3, .panel-primary .panel-heading h4, .panel-primary .panel-heading h5 {
   border: none;
@@ -241,13 +247,15 @@ h1 {
 
 .panel-accent {
   border: solid 1px #FDB833;
+  background-color: #BFBDC1;
 }
 .panel-accent .panel-heading {
   background-color: #FDB833;
-  color: #FFFFFF;
+  color: #403c48;
 }
 .panel-accent .panel-heading h1, .panel-accent .panel-heading h2, .panel-accent .panel-heading h3, .panel-accent .panel-heading h4, .panel-accent .panel-heading h5 {
   border: none;
+  color: #403c48;
   padding: 0;
 }
 .panel-accent .panel-body h1, .panel-accent .panel-body h2, .panel-accent .panel-body h3, .panel-accent .panel-body h4, .panel-accent .panel-body h5 {
@@ -259,6 +267,7 @@ h1 {
 }
 
 .jumbotron {
+  box-shadow: 0 1px 1px 4px rgba(0, 0, 0, 0.05);
   background-color: #032B43;
   color: #FFFFFF;
 }
@@ -302,7 +311,7 @@ h1 {
 }
 
 .empCard {
-  box-shadow: 3px 3px 8px #888888;
+  box-shadow: 0 1px 1px 4px rgba(0, 0, 0, 0.05);
 }
 .empCard img {
   width: 30%;
@@ -329,6 +338,14 @@ h1 {
 
 .no-border {
   border: none;
+}
+
+.dark-text {
+  color: #212121 !important;
+}
+
+.dark-background {
+  background-color: #BFBDC1;
 }
 
 /*# sourceMappingURL=style.css.map */
