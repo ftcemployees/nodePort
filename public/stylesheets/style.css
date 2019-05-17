@@ -186,7 +186,8 @@ body .navbar-default {
 }
 
 h1, h2, h3, h4 {
-  color: #f4f4f4;
+/*   color: #f4f4f4; */
+  color: #262626;
   font-family: "Open Sans Light", sans-serif;
   border-bottom: solid 1px #d3d3d3;
   padding-bottom: 3%;
