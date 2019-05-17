@@ -39,7 +39,8 @@ fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fi
 /*   background-color: #ffcb34; */
    background-color: #303030;
   border-color: #303030;
-  color: #403c48;
+/*   color: #403c48; */
+  color: #FFF;
 }
 .btn-accent.disabled:hover, .btn-accent.disabled:focus, .btn-accent.disabled:active, .btn-accent.disabled.active {
   background-color: #ffcb34;
