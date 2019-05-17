@@ -27,7 +27,8 @@ fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fi
 }
 
 .btn-accent {
-  color: #403c48;
+/*   color: #403c48; */
+  color: #FFF;
 /*   background-color: #FDB833; */
   background-color: #262626;
 /*   border-color: #FDB833; */
