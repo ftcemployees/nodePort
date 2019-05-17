@@ -28,13 +28,16 @@ fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fi
 
 .btn-accent {
   color: #403c48;
-  background-color: #FDB833;
-  border-color: #FDB833;
+/*   background-color: #FDB833; */
+  background-color: #262626;
+/*   border-color: #FDB833; */
+  border-color: #262626;
   border-radius: 100px;
 }
 .btn-accent:hover, .btn-accent:focus, .btn-accent:active, .btn-accent.active {
-  background-color: #ffcb34;
-  border-color: #ffcb34;
+/*   background-color: #ffcb34; */
+   background-color: #303030;
+  border-color: #303030;
   color: #403c48;
 }
 .btn-accent.disabled:hover, .btn-accent.disabled:focus, .btn-accent.disabled:active, .btn-accent.disabled.active {
