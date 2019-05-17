@@ -30,6 +30,7 @@ fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fi
   color: #403c48;
   background-color: #FDB833;
   border-color: #FDB833;
+  border-radius: 100px;
 }
 .btn-accent:hover, .btn-accent:focus, .btn-accent:active, .btn-accent.active {
   background-color: #ffcb34;
@@ -334,6 +335,7 @@ h1 {
 
 .flex-parent a {
   box-shadow: 3px 3px 8px #888888;
+  border-radius: 100px;
 }
 
 .modal-title {
