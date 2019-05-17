@@ -85,7 +85,8 @@ a .glyphicon, a p {
   margin-left: 7px;
 }
 .nav-pills li a {
-  color: #032B43;
+/*   color: #032B43; */
+  color: #262626;
 /* ORIGINAL  border: solid 1px #032B43; */
   border: solid 1px #262626;
   border-bottom: none;
