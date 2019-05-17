@@ -7,6 +7,7 @@
   display: flex;
   min-width: 536px;
   margin: 0;
+  border-radius: 10px;
 }
 
 #dropdowns {
@@ -112,6 +113,7 @@ a .glyphicon, a p {
 #dailyLinksContainer {
   border: none;
   box-shadow: 0 1px 1px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=homepage.css.map */
