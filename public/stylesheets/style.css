@@ -55,6 +55,8 @@ fieldset[disabled] .btn-accent:hover, fieldset[disabled] .btn-accent:focus, fiel
 .navbar-default {
   background-color: #262626;
   border-color: #262626;
+  
+  /*ORIGINAL: background-color: rgb(3, 43, 67);*/
 }
 .navbar-default .navbar-brand {
   color: #FFFFFF;
@@ -165,11 +167,13 @@ fieldset[disabled] .btn-accent:hover, fieldset[disabled] .btn-accent:focus, fiel
 body {
   font-family: "Roboto", sans-serif;
   margin-bottom: 1%;
-  background-color: #403c48;
+  background-color: #404040;
+  /*ORIGINAL COLOR: #403c48*/
 }
 body .container {
-  background-color: #403c48;
+  background-color: #404040;
   padding: 20px;
+  /*ORIGINAL COLOR: #403c48*/
 }
 body .navbar-default {
   margin-bottom: 0;
