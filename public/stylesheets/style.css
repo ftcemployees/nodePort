@@ -177,6 +177,7 @@ body {
 body .container {
   background-color: #404040;
   padding: 20px;
+  margin-top: 60px;
   /*ORIGINAL COLOR: #403c48*/
 }
 body .navbar-default {
