@@ -85,20 +85,23 @@ a .glyphicon, a p {
 }
 .nav-pills li a {
   color: #032B43;
-  border: solid 1px #032B43;
+/* ORIGINAL  border: solid 1px #032B43; */
+  border: solid 1px #262626;
   border-bottom: none;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   background-color: #cdcbcf;
 }
 .nav-pills li a:hover {
-  background-color: #033a58;
+  /* ORIGINAL background-color: #033a58;*/
+  background-color: #303030;
   color: #FFFFFF;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
 .nav-pills .active a {
-  background-color: #032B43 !important;
+/* ORIGINAL   background-color: #032B43 !important; */
+  background-color: #262626 !important;
 }
 
 @media screen and (min-width: 1200px) {
