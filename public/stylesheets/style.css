@@ -173,7 +173,7 @@ fieldset[disabled] .btn-accent:hover, fieldset[disabled] .btn-accent:focus, fiel
 body {
   font-family: "Roboto", sans-serif;
   margin-bottom: 1%;
-  background-color: #404040;
+/*   background-color: #404040; */
   background-image: url("images/ftcBackground.png");
   background-repeat: no-repeat;
   background-position: center;
