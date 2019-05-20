@@ -13,6 +13,13 @@
 /*   border-radius: 10px; */
 }
 
+.ftcSlides {
+  display: block;
+  position: relative;
+  text-align: center;
+  background-color: #262626;
+}
+
 #dropdowns {
   min-width: 536px;
   margin: 2% 0;
