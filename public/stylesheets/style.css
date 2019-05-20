@@ -173,9 +173,9 @@ fieldset[disabled] .btn-accent:hover, fieldset[disabled] .btn-accent:focus, fiel
 body {
   font-family: "Roboto", sans-serif;
   margin-bottom: 1%;
-  background-color: #404040;
-  background-image: url("../images/FTC_Background.png");
-  background-size: 100%;
+  background-color: #303030;
+/*   background-image: url("../images/FTC_Background.png");
+  background-size: 100%; */
   /*ORIGINAL COLOR: #403c48*/
 }
 body .container {
