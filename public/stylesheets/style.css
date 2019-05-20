@@ -174,10 +174,8 @@ body {
   font-family: "Roboto", sans-serif;
   margin-bottom: 1%;
   background-color: #404040;
-  background-image: url("ftcBackground.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url("images\ftcBackground.png");
+  background-repeat: repeat;
   /*ORIGINAL COLOR: #403c48*/
 }
 body .container {
