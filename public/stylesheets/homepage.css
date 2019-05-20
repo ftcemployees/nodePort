@@ -2,14 +2,15 @@
 .banner {
 /*   background: url("/images/maxresdefault.jpg") no-repeat center; */
   background: url("/images/FTC_Banner.png");
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
-/*   box-shadow: 0 1px 1px 4px rgba(0, 0, 0, 0.05); */
-  height: 300px;
+  box-shadow: 0 1px 1px 4px rgba(0, 0, 0, 0.05);
+  height: 450px;
   display: flex;
   min-width: 536px;
   margin: 0;
-  border-radius: 10px;
+/*   border-radius: 10px; */
 }
 
 #dropdowns {
