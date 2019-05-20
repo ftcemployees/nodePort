@@ -175,7 +175,9 @@ body {
   margin-bottom: 1%;
   background-color: #404040;
   background-image: url("../images/FTC_Background.png");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   /*ORIGINAL COLOR: #403c48*/
 }
 body .container {
