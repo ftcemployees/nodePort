@@ -9,7 +9,7 @@
     <script rel="script" type="text/javascript" src="/javascripts/home.js"></script>
 </head>
 
-<body class="homepage">
+<body class="homepage" onload="textChange(), setInterval(textChange, 10000)">
 <% include partials/nav.ejs %>
 <%
 var today = new Date().getDay()
