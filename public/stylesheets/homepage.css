@@ -13,12 +13,50 @@
   border-radius: 10px;
 } */
 
+.mainBox {
+  display: block;
+  position: relative;
+  margin-top: 30px;
+  /* border: 1px solid red; */
+}
+
 .banner {
   display: block;
   position: relative;
   color: white;
   text-align: center;
-  margin-bottom: 10px;
+  /* margin-top: 30px; */
+  margin-bottom: 45px;
+  background-image: url("../images/falls.jpg");
+  background-size: cover;
+  background-position: top;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  width: 100%;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.banner span.animated {
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+section.animated {
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.bannerText {
+  display: block;
+  position: relative;
+  padding: 2px;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 175px;
+  top: -87.5px;
 }
 
 .ftcSlides {
@@ -73,8 +111,8 @@ a .glyphicon, a p {
   margin-top: 1%;
 }
 #dropdownCards .tab-content {
-  border: solid 2px #BFBDC1;
-  background-color: #BFBDC1;
+  /* border: solid 2px #BFBDC1; */
+  /* background-color: #BFBDC1; */
 }
 #dropdownCards .flex-parent a {
   margin: 50px 15px;
@@ -103,28 +141,33 @@ a .glyphicon, a p {
 }
 
 .nav-pills li {
-  margin-left: 7px;
+  /* margin-left: 7px; */
+  text-align: center;
+  /* width: 370px; */
 }
 .nav-pills li a {
 /*   color: #032B43; */
-  color: #262626;
+  color: #FFF;
 /* ORIGINAL  border: solid 1px #032B43; */
-  border: solid 1px #262626;
+  /* border: solid 1px #262626; */
   border-bottom: none;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  background-color: #cdcbcf;
+  /* border-bottom-left-radius: 0; */
+  /* border-bottom-right-radius: 0; */
+  border-radius: 50px;
+  margin: 2px;
+  background-color: #707070;
 }
 .nav-pills li a:hover {
   /* ORIGINAL background-color: #033a58;*/
-  background-color: #303030;
+  background-color: #4d7722;
   color: #FFFFFF;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+  /* border-bottom-left-radius: 0; */
+  /* border-bottom-right-radius: 0; */
 }
 .nav-pills .active a {
 /* ORIGINAL   background-color: #032B43 !important; */
-  background-color: #262626 !important;
+  background-color: #334f17 !important;
+  /* background-color: #722f37 !important; */
 }
 
 @media screen and (min-width: 1200px) {
@@ -132,9 +175,15 @@ a .glyphicon, a p {
     width: 370px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .bannerText {
+    font-size: 50px;
+  }
+}
 #dailyLinksContainer {
   border: none;
-  box-shadow: 0 1px 1px 4px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0 1px 1px 4px rgba(0, 0, 0, 0.05); */
   border-radius: 10px;
 }
 
