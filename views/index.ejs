@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/homepage.css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script rel="script" type="text/javascript" src="/javascripts/index.js"></script>
+    <script rel="script" type="text/javascript" src="/javascripts/home.js"></script>
 </head>
 
 <body class="homepage">
@@ -18,17 +19,13 @@ if (typeof user == 'object' && user && (today == 1 || today == 5)) { %>
 }
 %>
 <div class="container animated fadeInLeft">
-    <div class="banner">
-            <span style="font-size: 50px; font-weight: 430; font-family: 'Roboto';">FTC</span><br/>
-            <span style="font-size: 20px; font-family: 'Roboto';">Faculty Technology Center</span>
-    </div>
-    
-    <div class="ftcSlides">
-        <!--FTC Slideshow iFrame embed link -->
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR6e6yb2W6ZVshjCWMWKPCUWyF5FKD9pwFf4lcz0qzyZS2PWa3sJNE8SiMSq3cL0ipoBfYekxhTFx5V/embed?start=true&loop=true&delayms=5000" frameborder="0" width="680" height="412" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <div class="container banner">
+            <span class="bannerText bounceIn animated" id="bText"></span>
+            <!-- <span style="font-size: 50px; font-weight: 430; font-family: 'Roboto';">FTC</span><br/> -->
+            <!-- <span style="font-size: 20px; font-family: 'Roboto';">Faculty Technology Center</span> -->
     </div>
 
-    <section id="dropdownCards">
+    <section id="dropdownCards" class="animated bounceInUp">
         <ul class="nav nav-pills" role="tablist">
             <li class="active"><a data-toggle="tab" href="#dailyLinks">FTC Team Daily Links</a></li>
             <li><a data-toggle="tab" href="#programLinks">Program Links</a></li>
