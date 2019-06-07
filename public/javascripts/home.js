@@ -31,11 +31,13 @@ function nightMode() {
     $(".navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus").css("color", "#FFF");
     $(".navbar-default .navbar-nav li a span").css("color", "#FFF");
     $(".dropdown-menu li a").css("color", "#262626");
+    $("#logoText").html('<img alt="FTC logo" src="css/images/FTC-Logo.svg" style="padding-top: 10px;"/>');
     isNight = true;
   } else {
     $(".navbar-default .navbar-nav li a").css("color", "#262626");
     $(".navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus").css("color", "#262626");
     $(".navbar-default .navbar-nav li a span").css("color", "#262626");
+    $("#logoText").html('<img alt="FTC logo" src="css/images/FTC-LogoBlack.png" style="padding-top: 10px;"/>');
     isNight = false;
   }
 
