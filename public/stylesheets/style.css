@@ -65,6 +65,7 @@ fieldset[disabled] .btn-accent:hover, fieldset[disabled] .btn-accent:focus, fiel
   background-color: #fff;
   border-color: #fff;
   box-shadow: 0 5px 10px 2px rgba(0,0,0,0.1);
+  transition: background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
 
   /*ORIGINAL: background-color: rgb(3, 43, 67);*/
 }
@@ -178,9 +179,15 @@ body {
   font-family: "Roboto", sans-serif;
   margin-bottom: 1%;
   background-color: #FFF;
+  transition: background-color 0.5s ease-in-out;
 /*   background-image: url("../images/FTC_Background.png");
   background-size: 100%; */
   /*ORIGINAL COLOR: #403c48*/
+}
+.nightMode {
+  background-color: #262626;
+  color: #FFF;
+  border-color: #262626;
 }
 body .container {
 /*   background-color: #404040; */
