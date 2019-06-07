@@ -89,17 +89,17 @@ fieldset[disabled] .btn-accent:hover, fieldset[disabled] .btn-accent:focus, fiel
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #FFFFFF;
-  background-color: #032B43;
+  /* background-color: #032B43; */
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: #FFFFFF;
-  background-color: #032B43;
+  /* background-color: #032B43; */
 }
 .navbar-default .navbar-toggle {
-  border-color: #032B43;
+  /* border-color: #032B43; */
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #296EB4;
+  /* background-color: #296EB4; */
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #FFFFFF;
