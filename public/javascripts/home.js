@@ -1,8 +1,8 @@
 /*****************************************************************
 * Simple Functions for the FTC Homepage (Brian Aguilar):
 *
-* textChange() - Changes banner text into one of many well-thought
-* one-liners about the FTC.
+* textChange() - Changes banner text into one of many well-thought one-liners about the FTC.
+* nightMode() - Changes css properties to create a dark mode
 *****************************************************************/
 
 function textChange () {
@@ -18,3 +18,38 @@ function textChange () {
   //Changes HTML elements HTML to a random one-liner
   document.getElementById("bText").innerHTML = '<div class="animated bounceIn">' + bannerText[num] + '</div>';
 };
+
+var isNight = false; //Variable for night mode
+function nightMode() {
+  //Change background colors of navbar and body
+  $("body").toggleClass("nightMode");
+  $(".navbar-default").toggleClass("nightMode");
+
+  //Changes navbar text colors to white
+  if (isNight == false) {
+    $(".navbar-default .navbar-nav li a").css("color", "#FFF");
+    $(".navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus").css("color", "#FFF");
+    $(".navbar-default .navbar-nav li a span").css("color", "#FFF");
+    isNight = true;
+  } else {
+    $(".navbar-default .navbar-nav li a").css("color", "#262626");
+    $(".navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus").css("color", "#262626");
+    $(".navbar-default .navbar-nav li a span").css("color", "#262626");
+    isNight = false;
+  }
+
+  // //Black Logo
+  // var t1 = '<img alt="FTC logo" src="css/images/FTC-LogoBlack.png" style="padding-top: 10px;"/>';
+  // //White Logo
+  // var t2 = '<img alt="FTC logo" src="css/images/FTC-Logo.svg" style="padding-top: 10px;"/>';
+  //
+  // var current = $("#logoText").html();
+  // console.log(current);
+  // console.log($("#logoText").html());
+  //
+  // if (current == t1) {
+  //   $("#logoText").text(t2); //Black to White
+  // } else {
+  //   $("#logoText").text(t1); //White to Black
+  // }
+}
