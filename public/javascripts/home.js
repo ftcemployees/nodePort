@@ -30,6 +30,7 @@ function nightMode() {
     $(".navbar-default .navbar-nav li a").css("color", "#FFF");
     $(".navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus").css("color", "#FFF");
     $(".navbar-default .navbar-nav li a span").css("color", "#FFF");
+    $(".dropdown-menu li a").css("color", "#262626");
     isNight = true;
   } else {
     $(".navbar-default .navbar-nav li a").css("color", "#262626");
