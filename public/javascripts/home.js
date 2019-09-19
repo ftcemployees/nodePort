@@ -7,7 +7,7 @@
 
 function textChange () {
   //Array of awesome FTC inspired one-liners
-  var bannerText = ["The Call Ends Here.", "Is your phone on?", "Submit your tickets!", "Just ask Connor.", "Where's Brother Wilcock?", "Mac > Windows", "Mac < Windows"];
+  var bannerText = ["The Call Ends Here.", "Is your phone on?", "Submit your tickets!", "Just ask Aaron.", "Where's Brother Wilcock?", "Mac > Windows", "Mac < Windows"];
 
   //Just a random number depending on amount of items in bannerText
   var num = Math.floor(Math.random() * (bannerText.length));
