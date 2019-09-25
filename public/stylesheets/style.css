@@ -102,7 +102,7 @@ fieldset[disabled] .btn-accent:hover, fieldset[disabled] .btn-accent:focus, fiel
   /* background-color: #296EB4; */
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #FFFFFF;
+  background-color: #262626;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -262,7 +262,7 @@ h1 {
   border: solid 1px #032B43;
 }
 .panel-primary .panel-heading {
-  background-color: #032B43;
+  background-color: #AAA;
 }
 .panel-primary .panel-heading h1, .panel-primary .panel-heading h2, .panel-primary .panel-heading h3, .panel-primary .panel-heading h4, .panel-primary .panel-heading h5 {
   border: none;
