@@ -61,7 +61,7 @@ function nightMode() {
 var alertElement = document.getElementById("alertElement");
 alertElement.style.display = "none"; //hide element
 var d = new Date();
-var day = 2;
+var day = d.getDay();
 console.log(day);
 
 if (day === 2) {
