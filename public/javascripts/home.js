@@ -62,6 +62,7 @@ var alertElement = document.getElementById("alertElement");
 alertElement.style.display = "none"; //hide alert element
 var d = new Date();
 var day = d.getDay();
+console.log(day);
 
 if (day === 2) {
   alertElement.style.display = "block";
