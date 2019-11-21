@@ -60,7 +60,7 @@ function nightMode() {
 //Tuesday Meeting Reminder
 var alertElement = document.getElementById("alertElement");
 var d = new Date();
-var day = d.getDay();
+var day = 2;
 console.log(day);
 
 if (day === 2) {
