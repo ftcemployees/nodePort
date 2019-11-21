@@ -56,3 +56,13 @@ function nightMode() {
   //   $("#logoText").text(t1); //White to Black
   // }
 }
+
+//Tuesday Meeting Reminder
+var alertElement = document.getElementById("alertElement");
+alertElement.style.display = "none"; //hide alert element
+var d = new Date();
+var day = d.getDay();
+
+if (day === 2) {
+  alertElement.style.display = "block";
+}
