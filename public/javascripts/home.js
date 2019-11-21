@@ -59,12 +59,12 @@ function nightMode() {
 
 //Tuesday Meeting Reminder
 // var alertElement = document.getElementById("alertElement");
-var d = new Date();
-var day = d.getDay();
-console.log(day);
+// var d = new Date();
+// var day = d.getDay();
+// console.log(day);
 
-if (day === 2) {
-  document.getElementById('alertElement').innerHTML = '<span style="display: block; color: red; text-align: center;" id="alertElement"><p>REMINDER: Team Meeting Today at 4:15PM</p></span>';
-} else {
-   document.getElementById('alertElement').innerHTML = '<span style="display: hidden; color: red; text-align: center;" id="alertElement"><p>REMINDER: Team Meeting Today at 4:15PM</p></span>';
-}
+// if (day === 2) {
+//   document.getElementById('alertElement').innerHTML = '<span style="display: block; color: red; text-align: center;" id="alertElement"><p>REMINDER: Team Meeting Today at 4:15PM</p></span>';
+// } else {
+//    document.getElementById('alertElement').innerHTML = '<span style="display: hidden; color: red; text-align: center;" id="alertElement"><p>REMINDER: Team Meeting Today at 4:15PM</p></span>';
+// }
