@@ -64,5 +64,5 @@ var day = 2;
 console.log(day);
 
 if (day === 2) {
-  alertElement.style.display = "block";
+  document.getElementById("alertElement").style.display = "block";
 }
