@@ -59,7 +59,6 @@ function nightMode() {
 
 //Tuesday Meeting Reminder
 var alertElement = document.getElementById("alertElement");
-alertElement.style.display = "hidden"; //hide alert element
 var d = new Date();
 var day = d.getDay();
 console.log(day);
