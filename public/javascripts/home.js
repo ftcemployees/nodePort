@@ -13,7 +13,7 @@ function textChange () {
   var num = Math.floor(Math.random() * (bannerText.length));
 
   //Checking number on console
-  console.log(num);
+//   console.log(num);
 
   //Changes HTML elements HTML to a random one-liner
   document.getElementById("bText").innerHTML = '<div class="animated bounceIn">' + bannerText[num] + '</div>';
@@ -59,7 +59,7 @@ function nightMode() {
 
 //Tuesday Meeting Reminder
 var alertElement = document.getElementById("alertElement");
-alertElement.style.display = "none"; //hide alert element
+alertElement.style.display = "hidden"; //hide alert element
 var d = new Date();
 var day = d.getDay();
 console.log(day);
