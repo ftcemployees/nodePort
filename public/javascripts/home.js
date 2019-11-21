@@ -58,14 +58,13 @@ function nightMode() {
 }
 
 //Tuesday Meeting Reminder
-var alertElement = document.getElementById("alertElement");
-alertElement.style.display = "hidden"; //hide element
+// var alertElement = document.getElementById("alertElement");
 var d = new Date();
 var day = d.getDay();
 console.log(day);
 
 if (day === 2) {
-  alertElement.style.display = "block"; //show element
+  document.getElementById("alertElement").innerHTML = '<span style="display: block; color: red; text-align: center;" id="alertElement"><p>REMINDER: Team Meeting Today at 4:15PM</p></span>'
 } else {
-  alertElement.style.display = "hidden"; //hide element
+   document.getElementById("alertElement").innerHTML = '<span style="display: none; color: red; text-align: center;" id="alertElement"><p>REMINDER: Team Meeting Today at 4:15PM</p></span>'
 }
